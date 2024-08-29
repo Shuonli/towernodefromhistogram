@@ -1,5 +1,5 @@
-LD_LIBRARY_PATH now /sphenix/u/shuhang98/install/lib:/sphenix/u/shuhang98/install/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/gcc/12.1.0-57c96/x86_64-centos7/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/gcc/12.1.0-57c96/x86_64-centos7/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/binutils/2.37-355ed/x86_64-centos7/lib:.:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/release/release_new/new.1/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/release/release_new/new.1/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/utils/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/utils/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/root-6.26.06.p01/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/geant4.10.07.p04/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/lhapdf-5.9.1/lib:/afs/rhic.bnl.gov/app/insure-7.5.5/lib:/usr/local/lib64:/usr/lib64
-PATH now /cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/gcc/12.1.0-57c96/x86_64-centos7/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/binutils/2.37-355ed/x86_64-centos7/bin:.:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/release/release_new/new.1/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/utils/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/root-6.26.06.p01/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/geant4.10.07.p04/bin:/afs/rhic.bnl.gov/app/insure-7.5.5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+LD_LIBRARY_PATH now /sphenix/u/shuhang98/install/lib:/sphenix/u/shuhang98/install/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/gcc/12.1.0-57c96/x86_64-centos7/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/gcc/12.1.0-57c96/x86_64-centos7/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/binutils/2.37-355ed/x86_64-centos7/lib:.:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/release/release_new/new.2/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/release/release_new/new.2/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/utils/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/utils/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/root-6.26.06.p01/lib:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/geant4.10.07.p04/lib64:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/lhapdf-5.9.1/lib:/afs/rhic.bnl.gov/app/insure-7.5.5/lib:/usr/local/lib64:/usr/lib64
+PATH now /cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/gcc/12.1.0-57c96/x86_64-centos7/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/binutils/2.37-355ed/x86_64-centos7/bin:.:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/release/release_new/new.2/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/utils/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/root-6.26.06.p01/bin:/cvmfs/sphenix.sdcc.bnl.gov/gcc-12.1.0/opt/sphenix/core/geant4.10.07.p04/bin:/afs/rhic.bnl.gov/app/insure-7.5.5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
 ------------------setting up environment--------------------
 running area: /sphenix/user/shuhangli/FastSimValid/macro/condor/OutDir23
 -------------------------running----------------------------
@@ -31,7 +31,7 @@ Registering Subsystem EmcRawClusterBuilderTemplate
 CaloAna24::CaloAna24(const std::string &name) Calling ctor
 Registering Subsystem CaloAna24
 Fun4AllServer::setRun(): run 0 uses CDB TIMESTAMP 45000
-Fun4AllServer::BeginRun: Run number 0 uses RECO TIMESTAMP: Thu Aug 29 10:12:16 2024
+Fun4AllServer::BeginRun: Run number 0 uses RECO TIMESTAMP: Thu Aug 29 12:14:07 2024
 Fun4AllServer::BeginRun: InitRun for CaloTowerBuilderFromHisto
 Fun4AllServer::BeginRun: InitRun for EmcRawClusterBuilderTemplate
 Fun4AllServer::BeginRun: InitRun for CaloAna24
@@ -20083,17 +20083,17 @@ Fun4AllServer::End: End for EmcRawClusterBuilderTemplate
 Fun4AllServer::End: End for CaloAna24
 Fun4AllServer::End: End for CDBInterface
 -------------------------------------- ** --------------------------------------
-CDBInterface_TOP: accumulated time (ms):  0.633293
-CDBInterface_TOP: per event time (ms):    6.33293e-05
+CDBInterface_TOP: accumulated time (ms):  1.08403
+CDBInterface_TOP: per event time (ms):    0.000108403
 -------------------------------------- ** --------------------------------------
-CaloAna24_TOP: accumulated time (ms):  310446
-CaloAna24_TOP: per event time (ms):    31.0446
+CaloAna24_TOP: accumulated time (ms):  94162.1
+CaloAna24_TOP: per event time (ms):    9.41621
 -------------------------------------- ** --------------------------------------
-CaloTowerBuilderFromHisto_TOP: accumulated time (ms):  38658
-CaloTowerBuilderFromHisto_TOP: per event time (ms):    3.8658
+CaloTowerBuilderFromHisto_TOP: accumulated time (ms):  16052.1
+CaloTowerBuilderFromHisto_TOP: per event time (ms):    1.60521
 -------------------------------------- ** --------------------------------------
-EmcRawClusterBuilderTemplate_TOP: accumulated time (ms):  535332
-EmcRawClusterBuilderTemplate_TOP: per event time (ms):    53.5332
+EmcRawClusterBuilderTemplate_TOP: accumulated time (ms):  152098
+EmcRawClusterBuilderTemplate_TOP: per event time (ms):    15.2098
 -------------------------------------- ** --------------------------------------
 CaloAna24::Reset(PHCompositeNode *topNode) being Reset
 CaloAna24::~CaloAna24() Calling dtor
