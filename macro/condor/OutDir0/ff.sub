@@ -1,0 +1,14 @@
++JobFlavour                   = "microcentury"
+transfer_input_files          = /sphenix/user/shuhangli/FastSimValid/macro/condor/OutDir0/CondorRunTC0.sh,/sphenix/user/shuhangli/FastSimValid/macro/condor/OutDir0/Fun4All_run_dst.C
+Executable                    = CondorRunTC0.sh
+request_memory                = 4GB
+Universe                      = vanilla
+Notification                  = Never
+GetEnv                        = True
+Priority                      = +80
+Output                        = test.out
+Error                         = test.err
+Log                           = /tmp/sli_.log
+Notify_user                   = sl4859@columbia.edu
+
+Queue

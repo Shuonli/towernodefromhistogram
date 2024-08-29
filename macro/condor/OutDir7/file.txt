@@ -1,0 +1,1 @@
+/sphenix/u/yeonjugo/SE/jetML/samples/2024-08-21_ddpm_tune1_emcal/model_m(ddpm-v2)_d(None)_g(iddpm-unet)_gen(32-2-1-0-(1, 2, 4)-()-True)_lr(0.0001)_T(8000)_beta(0.1)_seed(0)/fake_b.root
